@@ -1,34 +1,7 @@
 {% load static %}
 <!doctype html>
 <html>
-  <head>
-    <!-- Basic -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="shortcut icon" href="{% static 'images/fav.png' %}" type="" />
-    <title>ShopifyMax</title>
-    <!-- bootstrap core css -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{% static 'css/bootstrap.css' %}"
-    />
-    <!-- font awesome style -->
-    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" />
-    <!-- Custom styles for this template -->
-    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
-    <!-- responsive style -->
-    <link href="{% static 'css/responsive.css' %}" rel="stylesheet" />
-  </head>
+  {% include "head.html" %}
   <body>
     <div class="hero_area">
       <!-- header section strats -->
@@ -710,7 +683,7 @@
                 <div class="img_container">
                   <div class="img-box">
                     <div class="img_box-inner">
-                      <img src="{% static 'images/client.jpg" alt="" />
+                      <img src="{% static 'images/client.jpg' %} " alt="" />
                     </div>
                   </div>
                 </div>
