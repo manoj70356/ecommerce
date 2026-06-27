@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Static files (if collected)
+staticfiles/
+
+# Migrations (Optional)
+# Uncomment if you don't want to track migrations
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Python distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Pyright
+.pyright/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Secrets
+*.pem
+*.key
+
+# Cache
+.cache/
+
+# Logs
+logs/
+*.log
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Node (if using Tailwind/Vite)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Generated files
+*.sqlite3
